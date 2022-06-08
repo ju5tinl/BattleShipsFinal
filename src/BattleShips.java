@@ -290,7 +290,6 @@ public class BattleShips {
         String mode = "";
         boolean cheat = false;
         ArrayList<String> leaderboard = new ArrayList<String>();
-        System.out.println("Welcome to BattleShips");
         System.out.print("Would you like to (s)how leaderboard or start a (n)ew game? ");
         String option = s.nextLine();
         if (option.toLowerCase().equals("s")) {
